@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Operadores</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 20px;
+            background-color: rgb(35, 39, 99);
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .item-1 {
+            width: 400px;
+            height: 200px;
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .item-1 p {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-1">
+            <h1>Testando Operadores</h1>1
+            <h2>Obrigado!</h2>
+            <p>Você foi submetido a algumas janelas de teste, dependedo do valor colocado em cada uma, você receberá resultados diferentes. Para testar novamente basta atualizar a página!</p>
+        </div>
+    </div>
+    <script>
+        var a = Number(prompt('Digite um númeno de 0 a 10'))
+        var b = Number(prompt('Digite um númeno de 0 a 10'))
+        alert(`Operadores Aritiméticos`)
+        alert(`O primeiro número é ${a}, e o segundo é ${b}`)
+        alert(`${a} + ${b} é igual a ${a + b}`)
+        alert(`${a} - ${b} é igual a ${a - b}`)
+        alert(`${a} x ${b} é igual a ${a * b}`)
+        alert(`${a} divido por ${b} é igual a ${a / b}`)
+        alert(`O resto da divisão entre ${a} e ${b} é igual à ${a % b}`)
+        alert(`${a} elevado a ${b} é igual a ${a ** b}`)
+        alert(`Operadores Relacionais e Ternários`)
+        alert(`Lembrando, o primeiro número é ${a}, e o segundo é ${b}`)
+        alert(`${a} é maior que ${b} ? A resposta é: ${a > b ? "Sim":"Não"}`)
+        alert(`${a} é menor que ${b} ? A resposta é: ${a < b ? "Sim":"Não"}`)
+        alert(`${a} é maior ou igual a ${b} ? A resposta é: ${a >= b ? "Sim":"Não"}`)
+        alert(`${a} é menou ou igual a ${b} ? A resposta é: ${a <= b ? "Sim":"Não"}`)
+        alert(`${a} é igual a ${b} ? A resposta é: ${a == b ? "Sim":"Não"}`)
+        alert(`${a} é diferente de ${b} ? A resposta é: ${a != b ? "Sim":"Não"}`)
+        alert(`Operadores Lógicos`)
+        alert(`Lembrando, o primeiro número é ${a}, e o segundo é ${b}`)
+        alert(`O primeiro número (${a}) não é 5 certo? ${! a == 5 ? "Não":"Sim"}`)
+        alert(`Eu precido dos números 4 e 5, você digitou os dois? Pelo que vi,  ${a == 4 && b == 5 ? "sim!" : "não"}`)
+        alert(`Eu precido ou do número 4 ou do número 5, você digitou algum deles? Pelo que vi,  ${a == 4 || b == 5 ? "sim!" : "não"}`)
+    </script>
+</body>
+</html>
