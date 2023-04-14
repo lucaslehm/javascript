@@ -13,7 +13,7 @@ body {
 section {
     background-color: aliceblue;
     width: 600px;
-    height: 700px;
+    height: 600px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -32,6 +32,7 @@ h1 {
 }
 input, label {
     display: block;
+    margin: 10px 0px;
 }
 input {
     width: 100%;
@@ -51,4 +52,28 @@ input {
 .botao:hover {
     cursor: pointer;
     background-color: rgb(102, 146, 204);;
+}
+.botao:active {
+    background-color: rgb(75, 75, 233);
+}
+label {
+    font-weight: bold;
+}
+.resultado > p {
+    text-align: center;
+    background-color: rgb(112, 225, 112);
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(8, 74, 8);
+}
+.erro > p {
+    text-align: center;
+    background-color: rgb(237, 98, 156);
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(123, 25, 33);
 }

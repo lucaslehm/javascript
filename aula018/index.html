@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <section>
         <h1>Tabela IMC</h1>
@@ -32,14 +34,20 @@
         </div>
         <div>
             <h1>Calcule o seu IMC</h1>
-            <form action="" method="get"></form>
-            <label for="ipeso">Peso:</label>
-            <input type="number" name="peso" id="ipeso" placeholder="Digite seu peso" required>
-            <label for="ialtura">Altura:</label>
-            <input type="number" name="ialtura" id="ialtura" placeholder="Digite sua altura" required>
-            <input type="submit" value="Calcular" class="botao">
+            <form action="" id="form" method="post">
+                <label for="ipeso">Peso:</label>
+                <input type="number" name="peso" id="ipeso" placeholder="Digite seu peso" required step="0.1">
+                <label for="ialtura">Altura:</label>
+                <input type="number" name="ialtura" id="ialtura" placeholder="Digite sua altura" required step="0.1">
+                <input type="submit" value="Calcular" class="botao">
+            </form>
+        </div>
+        <div>
+            <p class="resultado"></p>
+            <p class="erro"></p>
         </div>
     </section>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
