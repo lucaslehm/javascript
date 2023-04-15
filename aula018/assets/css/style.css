@@ -59,7 +59,7 @@ input {
 label {
     font-weight: bold;
 }
-.resultado > p {
+.paragrafo-resultado {
     text-align: center;
     background-color: rgb(112, 225, 112);
     padding: 5px;
@@ -68,7 +68,7 @@ label {
     font-style: italic;
     color: rgb(8, 74, 8);
 }
-.erro > p {
+.erro {
     text-align: center;
     background-color: rgb(237, 98, 156);
     padding: 5px;
