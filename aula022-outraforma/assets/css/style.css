@@ -15,17 +15,13 @@ body {
     background-color: var(--cor01)
 }
 
-.pai {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .container {
+    margin: 0 auto;
+    margin-top: 20px;
     padding: 10px;
     background-color: aliceblue;
     text-align: center;
     width: 600px;
-    height: 400px;
     border-radius: 10px;
 }
 h1 {
