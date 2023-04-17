@@ -1,3 +1,5 @@
+// minha solução, não vi a necessidade de usar o for '-'
+
 function global() {
 
     function criarElemento(tag) {
