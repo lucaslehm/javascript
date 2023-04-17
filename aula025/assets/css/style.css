@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #222542;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--cor01)
+}
+.pai {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 600px;
+    border-radius: 10px;
+}
+h1 {
+    margin: 15px 0px;
+}

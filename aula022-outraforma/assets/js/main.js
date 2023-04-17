@@ -1,6 +1,6 @@
-function global() {
-    const resultado = document.querySelector('.titulo')
-    let data = new Date()
-    resultado.innerHTML = 'test'
-    // resultado.innerHTML = data.toLocaleDateString('pt-BR', { dateStyle: 'full', timeStyle: 'short'});
-}
+const resultado = document.querySelector('#texto');
+let data = new Date()
+let options = {
+    dataStyle: 'full',
+};
+resultado.innerHTML = data.toLocaleDateString('pt-BR', options)
