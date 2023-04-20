@@ -16,6 +16,7 @@ body {
 }
 
 .pai {
+    margin: 15x 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,9 +26,12 @@ body {
     background-color: aliceblue;
     text-align: center;
     width: 600px;
-    height: 400px;
     border-radius: 10px;
 }
 h1 {
+    margin: 15px 0px;
+}
+p {
+    text-align: left;
     margin: 15px 0px;
 }
