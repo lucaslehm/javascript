@@ -45,8 +45,11 @@ button:hover {
 button:active {
     background-color: rgb(34, 34, 131);
 }
-.timer {
+#timer {
     margin-bottom: 15px;
     font-weight: 500;
     font-size: 3em;
+}
+.pause {
+    color: rgb(201, 49, 49);
 }
