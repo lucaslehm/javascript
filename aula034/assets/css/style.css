@@ -18,12 +18,51 @@ body {
 .container {
     margin: 0 auto;
     margin-top: 20px;
-    padding: 10px;
+    padding: 16px;
     background-color: aliceblue;
     width: 600px;
-    height: 400px;
     border-radius: 10px;
 }
 h1 {
     margin: 15px 0px;
+}
+
+li {
+    margin: 10px 0px 10px 40px;
+    font-weight: 600;
+    list-style-type: square;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.inputNovaTarefa {
+    border: none;
+    border: 0.4px solid #222542;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.btnAddTarefa, .remove {
+    margin-left: 15px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(63, 73, 165);
+    color: white;
+    font-weight: 800;
+    border-radius: 7px;
+}
+
+.btnAddTarefa:hover, .remove:hover {
+    background-color: rgb(84, 96, 202);
+    transform: scale(105%, 105%);
+    transition-duration: .1s;
+}
+
+.btnAddTarefa:active, .remove:active {
+    background-color: rgb(32, 37, 85);
 }
