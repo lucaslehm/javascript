@@ -1,4 +1,4 @@
-// Escopo Léxico, Cloruse e CallBack
+// Escopo Léxico e Cloruse
 
 // Escopo léxico
 
@@ -14,13 +14,12 @@ falaOi()
 // Closure
 
 function falaSobrenome(sobrenome) {
-    const sobrenome = sobrenome
     return function () {
-        console.log(`Seu sobrenome é ${sobrenome}`)
+        return sobrenome
     }
 }
 
 const falaSobreN = falaSobrenome('Arruda')
 
-falaSobreN()
+console.log(falaSobreN())
 
